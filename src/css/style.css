@@ -1,0 +1,37 @@
+
+html, body, div#root {
+    height: 100%;
+}
+
+nav.navbar,
+nav.navbar ul li:hover {
+    background-color: #F97171
+}
+
+.btn-default, .btn-default:hover, .btn-default:focus {
+    background-color: #F97171;
+    border: 0;
+    color: white;
+}
+
+nav.navbar.navbar-dark a {
+    color: #FFF !important
+}
+
+canvas.document {
+    border: 1px #66BEB2 solid;
+    margin: 50px auto;
+    min-width: 80%
+}
+
+nav.navbar.navbar-dark .dropdown-item:hover {
+    background-color: #F97171;
+    color: white;
+    cursor: pointer
+}
+
+.active,
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #F97171;
+    color: white;
+}
